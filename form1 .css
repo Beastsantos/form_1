@@ -1,0 +1,73 @@
+
+body{
+    background-image: url(form.jpg);
+    height: 20cm;
+}
+form{
+    background-color:blue transparent;
+    width: 450px;
+    height: 500px;
+    border: 3px blue;
+    border-radius: 2rem;
+    background-image: url(form.jpg);
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid black;
+}
+img{
+    border: 7px rgb(9, 9, 93) solid;
+    height: 4cm;
+    width: 5cm;
+    border-radius: 7rem;
+}
+.words{
+
+    font-size: x-large;
+    font-weight: 900;
+    font-style: normal;
+    font-display: flex;
+    font-family: fantasy;
+}
+input::placeholder{
+
+  
+    font-size: large;
+    color: rgb(2, 2, 50);
+    display: flex;
+}
+button{
+    width: 4cm;
+    height: 2cm;
+    border-radius: 2rem;
+    color: white;
+    background-color: orange;
+}
+span{
+    color: orange;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: orange;
+}
+input{
+    background-color:rgb(74, 74, 235)  transparent;
+    width: 8cm;
+    height: 2cm;
+    border-radius: 2rem;
+    background-image: url( form.jpg);
+    font-size: large;
+    font: black;
+    font-family: fantasy;
+}
+input:hover{
+    background-color: transparent;
+}
+#logo{
+
+    font-style: bold;
+    font-size: xx-large;
+    font-family: serif;
+    font:rgb(2, 2, 15) ;
+    font-weight: 900;
+    height: 2cm;
+}
